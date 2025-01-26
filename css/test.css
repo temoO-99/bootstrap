@@ -338,8 +338,7 @@ nav .navbar-brand span:nth-child(2) {
 
 .latest-post .row .card-body p {
   line-height: 1.5;
-  text-align: inherit;
-  text-decoration: underline;
+  text-align: left;
 }
 
 .latest-post .row .card-body .btn {
@@ -556,12 +555,13 @@ nav .navbar-brand span:nth-child(2) {
 
 .choose .img {
   width: 100%;
-
   float: left;
+  height: 100%;
 }
 
 .choose .info .img img {
   width: 100%;
+  height: 100%;
 }
 
 .choose .info .body {
@@ -570,7 +570,7 @@ nav .navbar-brand span:nth-child(2) {
   background-color: var(--first-color);
   padding: 25px;
   color: whitesmoke;
-  min-height: 420px;
+  height: 100%;
 }
 
 .choose .info .body h1 {
